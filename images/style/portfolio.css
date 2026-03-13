@@ -13,7 +13,7 @@ header{
     padding-top: 50px;
     background: url('../developer.png'),url('../header_bg.png'),#FFF8F3;
     background-repeat: no-repeat;
-    background-position: top left, bottom right;
+    background-position: 23px 38px, bottom right;
 }
 .logo h2{
     font-size: 45px;
@@ -195,3 +195,66 @@ margin-bottom: 30px;
  hr{
     margin: 30px 0px;
 }
+.text-align{
+   text-align: center;
+}
+footer{
+    margin-top: 130px;
+    background-color: #FFF8F3;
+    padding: 130px 0px;
+
+}
+footer .footer-container{
+    width:71%;
+    max-width: 1140px;
+    margin: 0px auto;
+    display: flex;
+    gap: 316px;
+}
+.footer-container .social{
+    max-width: 562px;
+
+}
+.footer-container h2{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+    margin-bottom: 20px;
+}
+.footer .footer-container .social p{
+ 
+  
+    font-size: 16px;
+    font-weight: regular;
+    color:#757575;
+    margin-bottom: 30px;
+
+}
+.footer-container .icons{
+    margin-top: 30px;
+    margin-right: 24px;
+}
+.footer-container form input[type="text"]{
+    width: 461px;
+    padding: 18px 31px;
+    margin-bottom: 24px;
+    border: none;
+    border-radius: 5px;
+    color: #757575;
+
+}
+.footer-container form textarea{
+    width: 461px;
+    height: 180px;
+    border-radius: 5px;
+    color: #757575;
+    margin-bottom: 24px;
+    padding: 18px 30px;
+    color: #757575;
+    border: none;
+
+
+}
+
+
+
